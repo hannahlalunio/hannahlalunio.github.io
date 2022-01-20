@@ -71,7 +71,7 @@ export default function Sample() {
 
             {/* SERVICES */}
             <Row className="margin padding-lr section-margin">
-                <Col lg="6" md="6" sm="12">
+                <Col lg="6" md="12" sm="12">
                     <div className="section-title">
                         Services I can offer
                     </div>
@@ -115,7 +115,7 @@ export default function Sample() {
                         </Col>
                     </Row>
                 </Col>
-                <Col lg="6" md="6" sm="12" className="section-margin">
+                <Col lg="6" md="12" sm="12" className="section-margin">
                     <Row className="language-div">
                         <Col lg="2" md="2" sm="12" className="lang-img">
                             <img src={html} alt="html"/>
@@ -170,6 +170,13 @@ export default function Sample() {
                     </button>
                 </Col>
             </Row>
+            
+            {/* WORKS */}
+            <div className="margin padding-lr section-margin">
+                <div className="section-title">
+                        Works I've done
+                </div>
+            </div>
         </>
     )
 }
