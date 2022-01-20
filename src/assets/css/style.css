@@ -75,12 +75,12 @@ body,html{
     background: #16273B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 25px;
-    width: 500px;
+    width: 600px;
     border-radius: 8px;
     margin-bottom: 25px;
 }
 .card-image{
-    width: 80px;
+    width: 60px;
 }
 .card-title{
     font-size: 18px;
@@ -100,4 +100,13 @@ body,html{
 }
 .progress-bar{
     background-color: #16273B!important;
+}
+
+/* ME */
+.me-img img{
+    width: 500px;
+}
+.me-par{
+    color: #f7f7f7;
+    font-size: 18px;
 }
