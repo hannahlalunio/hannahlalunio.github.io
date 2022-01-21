@@ -14,6 +14,12 @@ import html from './../src/assets/images/html.png';
 import css3 from './../src/assets/images/css3.png';
 import javascript from './../src/assets/images/javascript.png';
 import reactjs from './../src/assets/images/reactjs.png';
+import s1 from './../src/assets/images/s1.png';
+import s2 from './../src/assets/images/s2.png';
+import s3 from './../src/assets/images/s3.png';
+import address from './../src/assets/images/address.png';
+import call from './../src/assets/images/call.png';
+import gmail from './../src/assets/images/gmail.png';
 
 export default function Sample() {
     return (
@@ -40,7 +46,7 @@ export default function Sample() {
             </Row>
             {/* BANNER */}
             <Row className="margin padding-lr section-margin">
-                <Col lg="2" md="2" sm="12" className="social-media-div">
+                <Col lg="2" md="12" sm="12" className="social-media-div">
                     <ul className="socialmedia">
                         <li>
                             <img src={fb} alt="fb"/>
@@ -56,7 +62,7 @@ export default function Sample() {
                         </li>
                     </ul>
                 </Col>
-                <Col lg="5" md="5" sm="12" className="intro">
+                <Col lg="5" md="12" sm="12" className="intro">
                     <p className="intro1">sample</p>
                     <p className="intro2">sample</p>
                     <p className="intro3">Sample</p>
@@ -174,9 +180,52 @@ export default function Sample() {
             {/* WORKS */}
             <div className="margin padding-lr section-margin">
                 <div className="section-title">
-                        Works I've done
+                    Works I've done
                 </div>
+                <Row className="margin padding-lr">
+                    <Col lg="4" md="4" sm="12">
+                        <img src={s1} alt="s1"/>
+                    </Col>
+                    <Col lg="4" md="4" sm="12">
+                        <img src={s2} alt="s2"/>
+                    </Col>
+                    <Col lg="4" md="4" sm="12">
+                        <img src={s3} alt="s3"/>
+                    </Col>
+                </Row>
             </div>
+
+
+            {/* Contact */}
+            <Row className="margin padding-lr section-margin">
+                <div className="section-title">
+                    Works with me
+                </div>
+                <Col lg="6" md="6" sm="12">
+                    <div className="contact-card">
+                        <img src={address} alt="addressicon"/>
+                        <p>address here</p>
+                    </div>
+                    <div className="contact-card">
+                        <img src={gmail} alt="addressicon"/>
+                        <p>gmail here</p>
+                    </div>
+                    <div className="contact-card">
+                        <img src={call} alt="addressicon"/>
+                        <p>address here</p>
+                    </div>
+                </Col>
+                <Col lg="6" md="6" sm="12">
+                    contact
+                </Col>
+            </Row>
+
+            {/* COPYRIGHT */}
+            <Row className="margin padding-lr">
+                <Col>
+                    <p className="copyright">Copyright - all rights reserved 2021</p>
+                </Col>
+            </Row>
         </>
     )
 }

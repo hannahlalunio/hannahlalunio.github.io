@@ -75,12 +75,12 @@ body,html{
     background: #16273B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 25px;
-    width: 600px;
+    width: 100%;
     border-radius: 8px;
     margin-bottom: 25px;
 }
 .card-image{
-    width: 60px;
+    width: 80%;
 }
 .card-title{
     font-size: 18px;
@@ -104,9 +104,30 @@ body,html{
 
 /* ME */
 .me-img img{
-    width: 500px;
+    width: 80%;
 }
 .me-par{
     color: #f7f7f7;
     font-size: 18px;
+}
+
+/* CONTACT FORM */
+.contact-card{
+    display: flex;
+    background: #16273B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.contact-card p{
+    color: #f7f7f7;
+}
+
+/* copyright */
+.copyright{
+    color: #f7f7f7;
+    font-size: 17px;
+    text-align: center;
 }
