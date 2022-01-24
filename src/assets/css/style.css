@@ -14,7 +14,7 @@ body,html{
     padding-right: 6rem;
 }
 .section-margin{
-    margin-top: 60px!important;
+    margin-top: 80px!important;
 }
 .section-title{
     font-size: 25px;
@@ -48,6 +48,7 @@ body,html{
 .socialmedia li{
     list-style-type: none;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .socialmedia li img{
     width: 30px;
@@ -79,9 +80,6 @@ body,html{
     border-radius: 8px;
     margin-bottom: 25px;
 }
-.card-image{
-    width: 80%;
-}
 .card-title{
     font-size: 18px;
 }
@@ -104,7 +102,7 @@ body,html{
 
 /* ME */
 .me-img img{
-    width: 80%;
+    width: 50%;
 }
 .me-par{
     color: #f7f7f7;
@@ -123,6 +121,12 @@ body,html{
 }
 .contact-card p{
     color: #f7f7f7;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.form-class{
+    box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 /* copyright */
