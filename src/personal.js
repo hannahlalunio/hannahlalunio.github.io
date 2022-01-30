@@ -21,7 +21,7 @@ import address from './../src/assets/images/address.png';
 import call from './../src/assets/images/call.png';
 import gmail from './../src/assets/images/gmail.png';
 
-export default function Sample() {
+export default function PersonalWebsite() {
     return (
         <>
             {/* HEADER */}
@@ -63,11 +63,11 @@ export default function Sample() {
                     </ul>
                 </Col>
                 <Col lg="5" md="12" sm="12" className="intro">
-                    <p className="intro1">sample</p>
-                    <p className="intro2">sample</p>
-                    <p className="intro3">Sample</p>
+                    <p className="intro1">Hi ! I'm</p>
+                    <p className="intro2">Hannah Mae</p>
+                    <p className="intro3">Front end developer/ Designer</p>
                     <button type="button" className="yellow-btn">
-                        Button
+                        Hire me
                     </button>
                 </Col>
                 <Col lg="5" md="5" sm="12" className="banner-img">

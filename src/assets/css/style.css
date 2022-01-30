@@ -35,6 +35,7 @@ body,html{
 }
 .navbar-light .navbar-nav .nav-link{
     color: #f7f7f7!important;
+    font-size: 20px;
 }
 .navbar_right{
     justify-content: flex-end!important;
@@ -48,6 +49,7 @@ body,html{
 .socialmedia li{
     list-style-type: none;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .socialmedia li img{
     width: 30px;
