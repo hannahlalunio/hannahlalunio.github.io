@@ -68,7 +68,7 @@ export default function PersonalWebsite() {
                     <p className="intro1">Hi ! I'm</p>
                     <p className="intro2">Hannah Mae</p>
                     <p className="intro3">Front end developer/ Designer</p>
-                    <button type="button" className="yellow-btn">
+                    <button type="button" className="peach-btn">
                         Hire me
                     </button>
                 </Col>
@@ -89,7 +89,7 @@ export default function PersonalWebsite() {
                         </Col>
                         <Col lg="10" md="10" sm="12">
                             <div className="card-title">
-                                Title
+                                Website and App Design
                             </div>
                             <div className="card-content">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -102,7 +102,7 @@ export default function PersonalWebsite() {
                         </Col>
                         <Col lg="10" md="10" sm="12">
                             <div className="card-title">
-                                Title
+                                Front end development
                             </div>
                             <div className="card-content">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -115,7 +115,7 @@ export default function PersonalWebsite() {
                         </Col>
                         <Col lg="10" md="10" sm="12">
                             <div className="card-title">
-                                Title
+                                Content Writing
                             </div>
                             <div className="card-content">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -173,11 +173,18 @@ export default function PersonalWebsite() {
                     <p className='me-par section-margin'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </p>
-                    <button type="button" className="yellow-btn">
+                    <button type="button" className="peach-btn">
                         See my resume
                     </button>
                 </Col>
             </Row>
+
+            {/* How I started */}
+            <div className="margin padding-lr section-margin">
+                <div className="section-title">
+                    How I started
+                </div>
+            </div>
 
             {/* WORKS */}
             <div className="margin padding-lr section-margin">
@@ -234,13 +241,13 @@ export default function PersonalWebsite() {
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Control as="textarea" rows={3} placeholder="Message" className="form-class" />
                         </Form.Group>
-                        <button type="button" className="yellow-btn">Send</button>
+                        <button type="button" className="peach-btn">Send</button>
                     </Form>
                 </Col>
             </Row>
 
             {/* COPYRIGHT */}
-            <Row className="margin padding-lr">
+            <Row className="margin padding-lr copyright-div">
                 <Col>
                     <p className="copyright">Copyright - all rights reserved 2022</p>
                 </Col>
