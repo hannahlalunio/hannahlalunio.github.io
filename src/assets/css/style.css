@@ -45,6 +45,9 @@ body,html{
     justify-content: flex-end;
 }
 /* Banner */
+.socialmedia{
+    padding-top: 60px;
+}
 .socialmedia li{
     list-style-type: none;
     margin-bottom: 20px;
@@ -96,11 +99,11 @@ body,html{
     width: 50px;
 }
 .progress{
-    background-color: #183A43!important;
+    background-color: #282A39!important;
     height: 25px!important;
 }
 .progress-bar{
-    background-color: #282A39!important;
+    background-color: #F1C5AE!important;
 }
 
 /* ME */
@@ -118,7 +121,7 @@ body,html{
     background: #282A39;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-    width: 50%;
+    width: 60%;
     padding: 20px;
     margin-bottom: 25px;
 }

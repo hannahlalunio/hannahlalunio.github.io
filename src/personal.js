@@ -4,9 +4,7 @@ import { Row, Col, Navbar, Container, Nav, ProgressBar, Form } from 'react-boots
 
 // IMAGES
 import cat from './../src/assets/images/cat.png';
-import bunny from './../src/assets/images/bunny.png';
-import fb from './../src/assets/images/fb.png';
-import ig from './../src/assets/images/ig.png';
+import profile from './../src/assets/images/profile.jpg';
 import linkedin from './../src/assets/images/linkedin.png';
 import email from './../src/assets/images/email.png';
 import html from './../src/assets/images/html.png';
@@ -16,11 +14,11 @@ import reactjs from './../src/assets/images/reactjs.png';
 import s1 from './../src/assets/images/s1.png';
 import s2 from './../src/assets/images/s2.png';
 import s3 from './../src/assets/images/s3.png';
-import address from './../src/assets/images/address.png';
-import call from './../src/assets/images/call.png';
-import gmail from './../src/assets/images/gmail.png';
+import address_icon from './../src/assets/images/address_icon.png';
+import call_icon from './../src/assets/images/call_icon.png';
+import email_icon from './../src/assets/images/email_icon.png';
 import coding from './../src/assets/images/coding.png';
-import uidesign from './../src/assets/images/uidesign.png';
+import designing from './../src/assets/images/designing.png';
 import contentwrite from './../src/assets/images/contentwrite.png';
 
 export default function PersonalWebsite() {
@@ -37,9 +35,9 @@ export default function PersonalWebsite() {
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav navbar_right">
                                 <Nav>
-                                    <Nav.Link href="#home">About</Nav.Link>
-                                    <Nav.Link href="#link">Works</Nav.Link>
-                                    <Nav.Link href="#link">Contact</Nav.Link>
+                                    <Nav.Link href="#about">About</Nav.Link>
+                                    <Nav.Link href="#works">Works</Nav.Link>
+                                    <Nav.Link href="#contactme">Contact</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
@@ -50,12 +48,6 @@ export default function PersonalWebsite() {
             <Row className="margin padding-lr section-margin">
                 <Col lg="2" md="12" sm="12" className="social-media-div">
                     <ul className="socialmedia">
-                        <li>
-                            <img src={fb} alt="fb" />
-                        </li>
-                        <li>
-                            <img src={ig} alt="fb" />
-                        </li>
                         <li>
                             <img src={linkedin} alt="fb" />
                         </li>
@@ -73,7 +65,7 @@ export default function PersonalWebsite() {
                     </button>
                 </Col>
                 <Col lg="5" md="5" sm="12" className="banner-img">
-                    <img src={bunny} alt="banner" />
+                    <img src={profile} alt="banner" />
                 </Col>
             </Row>
 
@@ -85,7 +77,7 @@ export default function PersonalWebsite() {
                     </div>
                     <Row className="card-style section-margin">
                         <Col lg="2" md="2" sm="12">
-                            <img src={uidesign} alt="ui" className="card-image" />
+                            <img src={designing} alt="ui" className="card-image" />
                         </Col>
                         <Col lg="10" md="10" sm="12">
                             <div className="card-title">
@@ -105,7 +97,7 @@ export default function PersonalWebsite() {
                                 Front end development
                             </div>
                             <div className="card-content">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                As a designer, it is important for me to have that pixel perfect implementation .....
                             </div>
                         </Col>
                     </Row>
@@ -160,18 +152,18 @@ export default function PersonalWebsite() {
             </Row>
 
             {/* MEE */}
-            <Row className="margin padding-lr section-margin">
+            <Row className="margin padding-lr section-margin" id="about">
                 <Col lg="6" md="6" sm="12">
                     <div className="section-title">
                         Me
                     </div>
                     <div className="me-img section-margin">
-                        <img src={bunny} alt="bunny" />
+                        <img src={profile} alt="profile" />
                     </div>
                 </Col>
                 <Col lg="6" md="6" sm="12" className="section-margin">
                     <p className='me-par section-margin'>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Hello ! I am Hannah Mae Lalunio. A Front end developer / designer based in the Philippines. I am a graduate of Bachelor of Science in Information Technology. I am very passionate and dedicated to my work. I always ensure the best output for the clients. I worked as a freelance front end developer in some private companies. And soon got hired as front end developer and designer which enabled me to learn more and focused on expanding my knowledge and understanding the web designing aspect in web development. 
                     </p>
                     <button type="button" className="peach-btn">
                         See my resume
@@ -179,15 +171,9 @@ export default function PersonalWebsite() {
                 </Col>
             </Row>
 
-            {/* How I started */}
-            <div className="margin padding-lr section-margin">
-                <div className="section-title">
-                    How I started
-                </div>
-            </div>
 
             {/* WORKS */}
-            <div className="margin padding-lr section-margin">
+            <div className="margin padding-lr section-margin" id="works">
                 <div className="section-title">
                     Works I've done
                 </div>
@@ -206,21 +192,21 @@ export default function PersonalWebsite() {
 
 
             {/* Contact */}
-            <Row className="margin padding-lr section-margin">
+            <Row className="margin padding-lr section-margin" id="contactme">
                 <div className="section-title">
                     Works with me
                 </div>
                 <Col lg="6" md="6" sm="12" className="section-margin">
                     <div className="contact-card">
-                        <img src={address} alt="addressicon" />
+                        <img src={address_icon} alt="address_icon" />
                         <p>Brgy. Matipunso San Antonio, Quezon</p>
                     </div>
                     <div className="contact-card">
-                        <img src={gmail} alt="addressicon" />
+                        <img src={email_icon} alt="email_icon" />
                         <p>laluniohannah@gmail.com</p>
                     </div>
                     <div className="contact-card">
-                        <img src={call} alt="addressicon" />
+                        <img src={call_icon} alt="call_icon" />
                         <p>+63-916-788-6528</p>
                     </div>
                 </Col>
