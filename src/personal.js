@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-import { Row, Col, Navbar, Container, Nav, ProgressBar, Form } from 'react-bootstrap';
+import { Row, Col, Navbar, Container, Nav, ProgressBar, Form, Modal, Button, Carousel } from 'react-bootstrap';
 
 // IMAGES
 import cat from './../src/assets/images/cat.png';
@@ -21,7 +21,12 @@ import coding from './../src/assets/images/coding.png';
 import designing from './../src/assets/images/designing.png';
 import contentwrite from './../src/assets/images/contentwrite.png';
 
+
 export default function PersonalWebsite() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <>
             {/* HEADER */}
@@ -178,14 +183,149 @@ export default function PersonalWebsite() {
                     Works I've done
                 </div>
                 <Row className="margin padding-lr">
-                    <Col lg="4" md="12" sm="12">
-                        <img src={s1} alt="s1" />
+                    <Col lg="4" md="12" sm="12" className="works_card">
+                        <div className="works_ss">
+                            <img src={s1} alt="s1" />
+                        </div>
+                        <div className="project-title">
+                            <div>Casino Website</div>
+                        </div>
+                        <div className="works_btn">
+                            <div className="work_desc">
+                                A sample design for a casino website. Used HTML, CSS, Bootstrap.
+                            </div>
+                            <button type="button" className="peach-btn">
+                                View project
+                            </button>
+                            <button type="button" className="peach-btn" onClick={handleShow}>
+                                View Gallery
+                            </button>
+                        </div>
+                        <Modal show={show} onHide={handleClose}>
+                            <Modal.Header closeButton>
+                                <Modal.Title>Casino Website</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="First slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="Second slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                                </Carousel>
+                            </Modal.Body>
+                        </Modal>
                     </Col>
-                    <Col lg="4" md="12" sm="12">
-                        <img src={s2} alt="s2" />
+                    <Col lg="4" md="12" sm="12" className="works_card">
+                        <div className="works_ss">
+                            <img src={s2} alt="s2" />
+                        </div>
+                        <div className="project-title">
+                            <div>Blog</div>
+                        </div>
+                        <div className="works_btn">
+                            <div className="work_desc">
+                                Design for the blogsite I am currently working on. Used Reactjs.
+                            </div>
+                            <button type="button" className="peach-btn">
+                                View project
+                            </button>
+                            <button type="button" className="peach-btn" onClick={handleShow}>
+                                View Gallery
+                            </button>
+                        </div>
+                        <Modal show={show} onHide={handleClose}>
+                            <Modal.Header closeButton>
+                                <Modal.Title>Blog</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="First slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="Second slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                                </Carousel>
+                            </Modal.Body>
+                        </Modal>
                     </Col>
-                    <Col lg="4" md="12" sm="12">
-                        <img src={s3} alt="s3" />
+                    <Col lg="4" md="12" sm="12" className="works_card">
+                        <div className="works_ss">
+                            <img src={s3} alt="s3" />
+                        </div>
+                        <div className="project-title">
+                            <div>Landing page</div>
+                        </div>
+                        <div className="works_btn">
+                            <button type="button" className="peach-btn">
+                                View project
+                            </button>
+                            <button type="button" className="peach-btn" onClick={handleShow}>
+                                View Gallery
+                            </button>
+                        </div>
+                        <Modal show={show} onHide={handleClose}>
+                            <Modal.Header closeButton>
+                                <Modal.Title>Landing Page</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="First slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="Second slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    className="d-block w-100"
+                                    src={s1}
+                                    alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                                </Carousel>
+                            </Modal.Body>
+                        </Modal>
                     </Col>
                 </Row>
             </div>
