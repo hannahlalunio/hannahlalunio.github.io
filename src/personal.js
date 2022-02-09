@@ -2,8 +2,10 @@ import React, {useState} from 'react';
 
 import { Row, Col, Navbar, Container, Nav, ProgressBar, Form, Modal, Button, Carousel } from 'react-bootstrap';
 
+import HannahLalunio from './../src/assets/HannahLalunio.pdf';
+
 // IMAGES
-import cat from './../src/assets/images/cat.png';
+import catcode from './../src/assets/images/catcode.png';
 import profile from './../src/assets/images/profile.jpg';
 import linkedin from './../src/assets/images/linkedin.png';
 import email from './../src/assets/images/email.png';
@@ -32,7 +34,7 @@ export default function PersonalWebsite() {
             {/* HEADER */}
             <Row className="margin padding-lr header">
                 <Col lg="4" md="4" sm="12">
-                    <img src={cat} alt="logo" />
+                    <img src={catcode} alt="logo" />
                 </Col>
                 <Col lg="8" md="8" sm="12" className="nav-div">
                     <Navbar>
@@ -65,9 +67,11 @@ export default function PersonalWebsite() {
                     <p className="intro1">Hi ! I'm</p>
                     <p className="intro2">Hannah Mae</p>
                     <p className="intro3">Front end developer/ Designer</p>
-                    <button type="button" className="peach-btn">
-                        Hire me
-                    </button>
+                    <a href = {HannahLalunio} target = "_blank">
+                        <button type="button" className="peach-btn">
+                            Hire me
+                        </button>
+                    </a>
                 </Col>
                 <Col lg="5" md="5" sm="12" className="banner-img">
                     <img src={profile} alt="banner" />
