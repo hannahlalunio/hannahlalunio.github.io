@@ -11,6 +11,7 @@ import html from './../src/assets/images/html.png';
 import css3 from './../src/assets/images/css3.png';
 import javascript from './../src/assets/images/javascript.png';
 import reactjs from './../src/assets/images/reactjs.png';
+import uidesign from './../src/assets/images/uidesign.png';
 
 export default function PersonalWebsite() {
     return (
@@ -100,9 +101,55 @@ export default function PersonalWebsite() {
                         React Js
                     </div>
                 </div>
-                
-                
             </div>
+            {/* SERVICES */}
+            <div className="section-title padding">
+                <p>Services</p>
+            </div>
+            <div className="service-set">
+                <div className="service-set padding">
+                    <div className="service-card">
+                        <div className="icon">
+                            <img src={uidesign} alt="ui design" />
+                        </div>
+                        <div className="title">
+                            UI / UX design
+                        </div>
+                        <div className="desc">
+                            As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
+                        </div>
+                    </div>
+                </div>
+                <div className="service-set padding">
+                    <div className="service-card">
+                        <div className="icon">
+                            <img src={uidesign} alt="ui design" />
+                        </div>
+                        <div className="title">
+                            UI / UX design
+                        </div>
+                        <div className="desc">
+                            As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
+                        </div>
+                    </div>
+                </div>
+                <div className="service-set padding">
+                    <div className="service-card">
+                        <div className="icon">
+                            <img src={uidesign} alt="ui design" />
+                        </div>
+                        <div className="title">
+                            UI / UX design
+                        </div>
+                        <div className="desc">
+                            As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
+              
         </>
     )
 }
