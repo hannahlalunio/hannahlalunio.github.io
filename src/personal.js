@@ -5,6 +5,7 @@ import { Row, Col, Navbar, Container, Nav } from 'react-bootstrap';
 // IMAGES
 import logo2 from './../src/assets/images/logo2.png';
 import aestheticme2 from './../src/assets/images/aestheticme2.png';
+import aestheticme from './../src/assets/images/aestheticme.png';
 import bluegmail from './../src/assets/images/bluegmail.png';
 import bluelinkedin from './../src/assets/images/bluelinkedin.png';
 import html from './../src/assets/images/html.png';
@@ -12,6 +13,11 @@ import css3 from './../src/assets/images/css3.png';
 import javascript from './../src/assets/images/javascript.png';
 import reactjs from './../src/assets/images/reactjs.png';
 import uidesign from './../src/assets/images/uidesign.png';
+import coding from './../src/assets/images/coding.png';
+import contentwrite from './../src/assets/images/contentwrite.png';
+import cbmarine from './../src/assets/images/cbmarine.png';
+import fontanacasino from './../src/assets/images/fontanacasino.png';
+import freeviral from './../src/assets/images/freeviral.png';
 
 export default function PersonalWebsite() {
     return (
@@ -65,7 +71,7 @@ export default function PersonalWebsite() {
             </Row>
 
             {/* SKILLS */}
-            <div className="section-title padding">
+            <div className="section-title padding margin">
                 <p>My Skills</p>
             </div>
             <div className="skill-set padding">
@@ -103,11 +109,24 @@ export default function PersonalWebsite() {
                 </div>
             </div>
             {/* SERVICES */}
-            <div className="section-title padding">
+            <div className="section-title padding margin">
                 <p>Services</p>
             </div>
-            <div className="service-set">
-                <div className="service-set padding">
+            <Row className="service-set padding margin">
+                <Col lg="4" md="12" sm="12" className="service-set padding">
+                    <div className="service-card">
+                        <div className="icon">
+                            <img src={coding} alt="ui design" />
+                        </div>
+                        <div className="title">
+                            Front end development
+                        </div>
+                        <div className="desc">
+                            As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
+                        </div>
+                    </div>
+                </Col>
+                <Col lg="4" md="12" sm="12" className="service-set padding">
                     <div className="service-card">
                         <div className="icon">
                             <img src={uidesign} alt="ui design" />
@@ -119,37 +138,121 @@ export default function PersonalWebsite() {
                             As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
                         </div>
                     </div>
-                </div>
-                <div className="service-set padding">
+                </Col>
+                <Col lg="4" md="12" sm="12" className="service-set padding">
                     <div className="service-card">
                         <div className="icon">
-                            <img src={uidesign} alt="ui design" />
+                            <img src={contentwrite} alt="ui design" />
                         </div>
                         <div className="title">
-                            UI / UX design
+                            Content Writing
                         </div>
                         <div className="desc">
                             As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
                         </div>
                     </div>
+                </Col>
+            </Row>
+
+            {/* WORKS */}
+            <div className="section-title padding">
+                <p>Works I've done</p>
+            </div>
+
+            <div className="projects-card">
+                <div className="project-img">
+                    <img src={cbmarine} alt="cb marine products"/>
                 </div>
-                <div className="service-set padding">
-                    <div className="service-card">
-                        <div className="icon">
-                            <img src={uidesign} alt="ui design" />
-                        </div>
-                        <div className="title">
-                            UI / UX design
-                        </div>
-                        <div className="desc">
-                            As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
-                        </div>
-                    </div>
+                <div className="desc-div">
+                    <p className="title">
+                        CB Marine Products
+                    </p>
+                    <p className="desc">
+                        This is a website that shows the different seafood products that the company offers. For this project, I used WordPress and AWS Lightsail as the server.
+                    </p>
+                    <a href="https://cbmarineproducts.com/" target="_blank">
+                        <button type="button" className="green-btn">
+                            View Project
+                        </button>
+                    </a>
                 </div>
+            </div>
+            <div className="projects-card">
+                <div className="project-img">
+                    <img src={fontanacasino} alt="fontana casino"/>
+                </div>
+                <div className="desc-div">
+                    <p className="title">
+                        Fontana Casino
+                    </p>
+                    <p className="desc">
+                        This is the company's own Casino Platform that we made with the help of my teammates where I am the front end developer, designer and the graphic artist. This platform also includes its own admin platform considering to handle multiple levels of users (Master Operator, Headquarter Operators and Store Users)
+                    </p>
+                    <a href="https://ftn-77.com/" target="_blank">
+                        <button type="button" className="green-btn">
+                            View Project
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div className="projects-card">
+                <div className="project-img">
+                    <img src={freeviral} alt="fontana casino"/>
+                </div>
+                <div className="desc-div">
+                    <p className="title">
+                        Free Viral Products
+                    </p>
+                    <p className="desc">
+                        Free Viral Products is a FREE tool that allows you to jump-start your eCommerce business. This is the first project that I worked on as a freelancer. This is made with ReactJs, Material UI and Sass.
+                    </p>
+                    <a href="https://freeviralproducts.com/" target="_blank">
+                        <button type="button" className="green-btn">
+                            View Project
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            {/* ABOUT ME */}
+            <div className="section-title padding">
+                <p>About Me</p>
+            </div>
+            <Row className="about-me margin padding">
+                <Col lg="6" md="12" sm="12">
+                    <img src={aestheticme} alt="me"/>
+                </Col>
+                <Col lg="6" md="12" sm="12">
+                    <p className="aboutme">
+                        I am Hannah Mae Lalunio. A front end developer and designer based in the Philippines. In the beginning of my career, I was trained to be as detail-oriented as I can be and working in a fast-paced projects. My first projects includes converting PSD and Figma templates into responsive web pages which taught me the pixel-perfect aspect, and clean-coding in front end development. As I implement the web designs into codes, I was also inspired to be a designer as well. I trained myself and enhanced my UI / UX designing skills. As I was working in the industry I was able to learn using React Js as well. <br/>
+                        Working 2 years in the industry enables me to learn many things about my career. In every projects that I am working on, I always make sure that I give my best shot to it to be able to give the best possible output for the project and the client.
+                    </p>
+                </Col>
+            </Row>
+
+            {/* CONTACT ME */}
+            <div className="contactme">
+                <p className="title">Get in touch with me :)</p>
+                <p className="email">Send me a message at <a href="mailto:webmaster@example.com" className="email-link">laluniohannah@gmail.com</a></p>
+                <ul className="social-media">
+                    <li>
+                        <a href="mailto:webmaster@example.com" target="_blank">
+                            <img src={bluegmail} alt="gmail" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/hannah-mae-lalunio-9a4857185/" target="_blank">
+                            <img src={bluelinkedin} alt="linkedin" />
+                        </a>
+                    </li>
+                </ul>
             </div>
            
 
-              
+            {/* COPYRIGHT */}
+            <div className="copyright">
+                <p>&#169; Designed by Hannah</p>
+            </div>
         </>
     )
 }
