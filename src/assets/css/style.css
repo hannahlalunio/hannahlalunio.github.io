@@ -65,7 +65,8 @@ body, html {
     font-size: 25px;
 }
 .intro1{
-    font-size: 27px;
+    font-size: 30px;
+    font-family: Eina01-Bold;
 }
 .intro2{
     font-size: 25px;
@@ -157,9 +158,10 @@ body, html {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     display: flex;
-    margin: 20px auto 0 auto;
-    width: 50%;
+    margin: 20px auto 50px auto;
+    width: 60%!important;
     height: 350px;
+    padding: 0!important;
 }
 .projects-card .project-img img{
     width: 100%;
@@ -230,4 +232,209 @@ body, html {
     font-family: Eina01-Regular;
     font-size: 18px;
     text-align: center;
+}
+
+
+/* RESPONSIVENESS */
+@media(max-width: 1600px){
+    .projects-card{
+        width: 70%!important;
+    }
+    .desc-div{
+        padding: 30px;
+    }
+}
+@media(max-width: 1500px){
+    .banner-img{
+        width: 100%;
+    }
+    .intro-div{
+        padding-top: 7rem;
+    }
+    .circle-skill{
+        width: 150px;
+        height: 150px;
+    }
+    .circle-skill img{
+        width: 100%;
+    }
+}
+@media(max-width: 1400px){
+    .projects-card{
+        height: 325px;
+    }
+}
+@media(max-width: 1300px){
+    .intro-div{
+        padding-top: 5rem;
+    }
+    .projects-card{
+        width: 80%!important;
+    }
+}
+@media(max-width: 1200px){
+    .about-me img{
+        width: 400px;
+    }
+    .projects-card{
+        width: 90%!important;
+        height: 340px;
+    }
+}
+@media(max-width: 1000px){
+    .projects-card{
+        width: 100%!important;
+        height: 300px;
+    }
+    .circle-skill{
+        width: 125px;
+        height: 125px;
+        padding: 30px;
+    }
+    .service-card{
+        margin-bottom: 20px;
+    }
+    .desc-div{
+        padding: 20px;
+    }
+}
+@media(max-width: 900px){
+    .padding{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .intro-div{
+        padding-top: 3rem;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+    .section-title p{
+        font-size: 25px;
+    }
+    .language{
+        font-size: 20px;
+    }
+    .desc-div .title{
+        font-size: 14px;
+    }
+    .desc-div .desc{
+        font-size: 14px;
+    }
+    .banner-div{
+        padding-top: 5rem;
+    }
+    .green-btn{
+        padding: 5px 15px 5px 15px;
+        font-size: 15px;
+    }
+    .about-me img{
+        width: 350px;
+    }
+    .section-title{
+        margin-bottom: 50px!important;
+    }
+}
+@media(max-width: 800px){
+    .intro-div{
+        padding-top: 0;
+    }
+    .intro1{
+        font-size: 25px;
+    }
+    .im{
+        font-size: 20px;
+    }
+    .intro2{
+        font-size: 20px;
+    }
+    .projects-card .project-img img{
+        object-fit: cover;
+    }
+    .padding{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media(max-width: 600px){
+    .padding{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .desc-div{
+        padding: 10px;
+    }
+    .projects-card{
+        flex-direction: column;
+        min-height: 600px;
+        max-height: 650px;
+        height: fit-content;
+        padding: 20px!important;
+        width: 70%!important;
+    }
+    .project-img{
+        width: unset;
+    }
+    .projects-card .project-img img{
+        width: 100%;
+        height: auto;
+    }
+    .desc-div {
+        padding: 10px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .contactme .title{
+        font-size: 25px;
+    }
+    .copyright p{
+        font-size: 14px;
+    }
+    .logo img{
+        width: 100%;
+    }
+}
+@media(max-width: 551px){
+    .projects-card{
+        width: 90%!important;
+    }
+}
+@media(max-width: 500px){
+    .header{
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
+    }
+    .section-title p{
+        font-size: 20px;
+    }
+    .contactme .title{
+        font-size: 20px;
+    }
+    .language{
+        font-size: 14px;
+    }
+    .service-card .desc{
+        font-size: 14px;
+    }
+    .aboutme{
+        font-size: 14px;
+    }
+    .contactme .social-media li img{
+        width: 30px;
+    }
+}
+@media(max-width: 400px){
+    .about-me img{
+        width: 100%;
+    }
+    .projects-card{
+        width: 100%!important;
+    }
+    .header{
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    .navbar .container{
+        padding: 0;
+    }
 }

@@ -24,10 +24,10 @@ export default function PersonalWebsite() {
         <>
             {/* HEADER NAV */}
             <Row className="header padding margin">
-                <Col lg="6" md="12" sm="12" className="logo">
+                <Col lg="6" md="6" sm="4" xs="3" className="logo">
                     <img src={logo2} alt="Logo" />
                 </Col>
-                <Col lg="6" md="12" sm="12" className="navbar-main">
+                <Col lg="6" md="6" sm="8" xs="9" className="navbar-main">
                     <Navbar>
                         <Container>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,7 +44,7 @@ export default function PersonalWebsite() {
             </Row>
             {/* BANNER */}
             <Row className="banner-div margin padding">
-                <Col lg="5" md="12" sm="12">
+                <Col lg="5" md="5" sm="12">
                     <div className="intro-div">
                         <p className="intro1"><span className="im">I'm</span> Hannah Mae</p>
                         <p className="intro2">Front end developer and designer</p>
@@ -65,7 +65,7 @@ export default function PersonalWebsite() {
                         </ul>
                     </div>
                 </Col>
-                <Col lg="7" md="12" sm="12">
+                <Col lg="7" md="7" sm="12">
                     <img src={aestheticme2} alt="cover" className="banner-img"/>
                 </Col>
             </Row>
@@ -74,40 +74,40 @@ export default function PersonalWebsite() {
             <div className="section-title padding margin">
                 <p>My Skills</p>
             </div>
-            <div className="skill-set padding">
-                <div className="circle-main">
+            <Row className="skill-set padding margin">
+                <Col lg="3" md="6" sm="6" xs="6" className="circle-main">
                     <div className="circle-skill">
                         <img src={html} alt="skill" />
                     </div>
                     <div className="language">
                         HTML
                     </div>
-                </div>
-                <div className="circle-main">
+                </Col>
+                <Col lg="3" md="6" sm="6" xs="6" className="circle-main">
                     <div className="circle-skill">
                         <img src={css3} alt="skill" />
                     </div>
                     <div className="language">
                         CSS
                     </div>
-                </div>
-                <div className="circle-main">
+                </Col>
+                <Col lg="3" md="6" sm="6" xs="6" className="circle-main">
                     <div className="circle-skill">
                         <img src={javascript} alt="skill" />
                     </div>
                     <div className="language">
                         Javascript
                     </div>
-                </div>
-                <div className="circle-main">
+                </Col>
+                <Col lg="3" md="6" sm="6" xs="6" className="circle-main">
                     <div className="circle-skill">
                         <img src={reactjs} alt="skill" />
                     </div>
                     <div className="language">
                         React Js
                     </div>
-                </div>
-            </div>
+                </Col>
+            </Row>
             {/* SERVICES */}
             <div className="section-title padding margin">
                 <p>Services</p>
@@ -122,7 +122,7 @@ export default function PersonalWebsite() {
                             Front end development
                         </div>
                         <div className="desc">
-                            As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
+                            As a front end developer, I practiced having clean coding. I always ensure to implement and provide the best UI experience to the users. 
                         </div>
                     </div>
                 </Col>
@@ -148,7 +148,7 @@ export default function PersonalWebsite() {
                             Content Writing
                         </div>
                         <div className="desc">
-                            As a Front end developer, I also engaged myself in the UI / UX designing. I trained myself to be deatil-oriented as I can be to have the best output for the projects.
+                            Working on some freelance projects eneables me to learn writing contents. 
                         </div>
                     </div>
                 </Col>
@@ -158,62 +158,62 @@ export default function PersonalWebsite() {
             <div className="section-title padding">
                 <p>Works I've done</p>
             </div>
-
-            <div className="projects-card">
-                <div className="project-img">
-                    <img src={cbmarine} alt="cb marine products"/>
-                </div>
-                <div className="desc-div">
-                    <p className="title">
-                        CB Marine Products
-                    </p>
-                    <p className="desc">
-                        This is a website that shows the different seafood products that the company offers. For this project, I used WordPress and AWS Lightsail as the server.
-                    </p>
-                    <a href="https://cbmarineproducts.com/" target="_blank">
-                        <button type="button" className="green-btn">
-                            View Project
-                        </button>
-                    </a>
-                </div>
-            </div>
-            <div className="projects-card">
-                <div className="project-img">
-                    <img src={fontanacasino} alt="fontana casino"/>
-                </div>
-                <div className="desc-div">
-                    <p className="title">
-                        Fontana Casino
-                    </p>
-                    <p className="desc">
-                        This is the company's own Casino Platform that we made with the help of my teammates where I am the front end developer, designer and the graphic artist. This platform also includes its own admin platform considering to handle multiple levels of users (Master Operator, Headquarter Operators and Store Users)
-                    </p>
-                    <a href="https://ftn-77.com/" target="_blank">
-                        <button type="button" className="green-btn">
-                            View Project
-                        </button>
-                    </a>
-                </div>
-            </div>
-            <div className="projects-card">
-                <div className="project-img">
-                    <img src={freeviral} alt="fontana casino"/>
-                </div>
-                <div className="desc-div">
-                    <p className="title">
-                        Free Viral Products
-                    </p>
-                    <p className="desc">
-                        Free Viral Products is a FREE tool that allows you to jump-start your eCommerce business. This is the first project that I worked on as a freelancer. This is made with ReactJs, Material UI and Sass.
-                    </p>
-                    <a href="https://freeviralproducts.com/" target="_blank">
-                        <button type="button" className="green-btn">
-                            View Project
-                        </button>
-                    </a>
-                </div>
-            </div>
-
+            <Row className="padding margin">
+                <Col lg="12" md="12" sm="12" className="projects-card">
+                    <div className="project-img">
+                        <img src={cbmarine} alt="cb marine products"/>
+                    </div>
+                    <div className="desc-div">
+                        <p className="title">
+                            CB Marine Products
+                        </p>
+                        <p className="desc">
+                            This is a website that shows the different seafood products that the company offers. For this project, I used WordPress and AWS Lightsail as the server.
+                        </p>
+                        <a href="https://cbmarineproducts.com/" target="_blank">
+                            <button type="button" className="green-btn">
+                                View Project
+                            </button>
+                        </a>
+                    </div>
+                </Col>
+                <Col lg="12" md="12" sm="12" className="projects-card">
+                    <div className="project-img">
+                        <img src={fontanacasino} alt="fontana casino"/>
+                    </div>
+                    <div className="desc-div">
+                        <p className="title">
+                            Fontana Casino
+                        </p>
+                        <p className="desc">
+                            This is the company's own Casino Platform that we made with the help of my teammates where I am the front end developer, designer and the graphic artist. This platform also includes its own admin platform considering to handle multiple levels of users (Master Operator, Headquarter Operators and Store Users)
+                        </p>
+                        <a href="https://ftn-77.com/" target="_blank">
+                            <button type="button" className="green-btn">
+                                View Project
+                            </button>
+                        </a>
+                    </div>
+                </Col>
+                <Col lg="12" md="12" sm="12" className="projects-card">
+                    <div className="project-img">
+                        <img src={freeviral} alt="fontana casino"/>
+                    </div>
+                    <div className="desc-div">
+                        <p className="title">
+                            Free Viral Products
+                        </p>
+                        <p className="desc">
+                            Free Viral Products is a FREE tool that allows you to jump-start your eCommerce business. This is the first project that I worked on as a freelancer. This is made with ReactJs, Material UI and Sass.
+                        </p>
+                        <a href="https://freeviralproducts.com/" target="_blank">
+                            <button type="button" className="green-btn">
+                                View Project
+                            </button>
+                        </a>
+                    </div>
+                </Col>
+            </Row>
             {/* ABOUT ME */}
             <div className="section-title padding">
                 <p>About Me</p>
@@ -231,7 +231,7 @@ export default function PersonalWebsite() {
             </Row>
 
             {/* CONTACT ME */}
-            <div className="contactme">
+            <div className="contactme padding">
                 <p className="title">Get in touch with me :)</p>
                 <p className="email">Send me a message at <a href="mailto:webmaster@example.com" className="email-link">laluniohannah@gmail.com</a></p>
                 <ul className="social-media">
