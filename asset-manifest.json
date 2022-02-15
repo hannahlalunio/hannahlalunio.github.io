@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ca6f793.css",
+    "main.js": "/static/js/main.86cdea11.js",
+    "static/js/787.ada0a756.chunk.js": "/static/js/787.ada0a756.chunk.js",
+    "static/media/fontanacasino.png": "/static/media/fontanacasino.b410c58962b4737424d9.png",
+    "static/media/cbmarine.png": "/static/media/cbmarine.446a82bd6755c3cfdf08.png",
+    "static/media/aestheticme2.png": "/static/media/aestheticme2.ce3aa9cae1cc0e23a22c.png",
+    "static/media/aestheticme.png": "/static/media/aestheticme.cb591433e16c52fe50af.png",
+    "static/media/Eina01-Regular.ttf": "/static/media/Eina01-Regular.2f3ebc72a376a3305bfc.ttf",
+    "static/media/Eina01-SemiBold.ttf": "/static/media/Eina01-SemiBold.d5d9ec80f34bc41228ae.ttf",
+    "static/media/Eina01-Bold.ttf": "/static/media/Eina01-Bold.8637c276e69661847b38.ttf",
+    "static/media/freeviral.png": "/static/media/freeviral.905c16a68aec0ec85328.png",
+    "index.html": "/index.html",
+    "main.9ca6f793.css.map": "/static/css/main.9ca6f793.css.map",
+    "main.86cdea11.js.map": "/static/js/main.86cdea11.js.map",
+    "787.ada0a756.chunk.js.map": "/static/js/787.ada0a756.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ca6f793.css",
+    "static/js/main.86cdea11.js"
+  ]
+}
