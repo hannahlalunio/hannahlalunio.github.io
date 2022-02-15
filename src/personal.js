@@ -50,9 +50,11 @@ export default function PersonalWebsite() {
                         <p className="intro2">Front end developer and designer</p>
                     </div>
                     <div className="banner-btn">
-                        <button type="button" className="green-btn">
-                            See my works
-                        </button>
+                        <a href="#works">
+                            <button type="button" className="green-btn">
+                                See my works
+                            </button>
+                        </a>
                     </div>
                     <div className="banner-social">
                         <ul>
@@ -155,7 +157,7 @@ export default function PersonalWebsite() {
             </Row>
 
             {/* WORKS */}
-            <div className="section-title padding">
+            <div className="section-title padding" id="works">
                 <p>Works I've done</p>
             </div>
             <Row className="padding margin">
@@ -215,7 +217,7 @@ export default function PersonalWebsite() {
                 </Col>
             </Row>
             {/* ABOUT ME */}
-            <div className="section-title padding">
+            <div className="section-title padding" id="aboutme">
                 <p>About Me</p>
             </div>
             <Row className="about-me margin padding">
@@ -231,7 +233,7 @@ export default function PersonalWebsite() {
             </Row>
 
             {/* CONTACT ME */}
-            <div className="contactme padding">
+            <div className="contactme padding" id="contact">
                 <p className="title">Get in touch with me :)</p>
                 <p className="email">Send me a message at <a href="mailto:webmaster@example.com" className="email-link">laluniohannah@gmail.com</a></p>
                 <ul className="social-media">
