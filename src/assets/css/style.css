@@ -73,6 +73,7 @@ body, html {
 }
 .banner-img{
     width: 800px;
+    float: right;
 }
 .banner-btn{
     margin-top: 2rem;
@@ -144,6 +145,7 @@ body, html {
 }
 .service-card .title{
     align-self: center;
+    text-align: center;
     font-family: Eina01-Bold;
     margin-bottom: 20px;
 }
@@ -432,5 +434,16 @@ body, html {
     }
     .navbar .container{
         padding: 0;
+    }
+}
+@media(max-width: 350px){
+    .circle-skill {
+        width: 100px;
+        height: 100px;
+        padding: 25px;
+    }
+    .padding {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
