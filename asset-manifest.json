@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.545e1e62.css",
+    "main.css": "/static/css/main.3df4fd99.css",
     "main.js": "/static/js/main.86cdea11.js",
     "static/js/787.ada0a756.chunk.js": "/static/js/787.ada0a756.chunk.js",
     "static/media/fontanacasino.png": "/static/media/fontanacasino.b410c58962b4737424d9.png",
@@ -12,12 +12,12 @@
     "static/media/Eina01-Bold.ttf": "/static/media/Eina01-Bold.8637c276e69661847b38.ttf",
     "static/media/freeviral.png": "/static/media/freeviral.905c16a68aec0ec85328.png",
     "index.html": "/index.html",
-    "main.545e1e62.css.map": "/static/css/main.545e1e62.css.map",
+    "main.3df4fd99.css.map": "/static/css/main.3df4fd99.css.map",
     "main.86cdea11.js.map": "/static/js/main.86cdea11.js.map",
     "787.ada0a756.chunk.js.map": "/static/js/787.ada0a756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.545e1e62.css",
+    "static/css/main.3df4fd99.css",
     "static/js/main.86cdea11.js"
   ]
 }
