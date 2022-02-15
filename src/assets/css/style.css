@@ -422,6 +422,10 @@ body, html {
     .contactme .social-media li img{
         width: 30px;
     }
+    .header{
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
 }
 @media(max-width: 400px){
     .about-me img{
@@ -429,10 +433,6 @@ body, html {
     }
     .projects-card{
         width: 100%!important;
-    }
-    .header{
-        padding-right: 0!important;
-        padding-left: 0!important;
     }
     .navbar .container{
         padding: 0;
