@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.843c173d.css",
-    "main.js": "/static/js/main.2489335e.js",
+    "main.css": "/static/css/main.b4210d58.css",
+    "main.js": "/static/js/main.65eab692.js",
     "static/js/787.ada0a756.chunk.js": "/static/js/787.ada0a756.chunk.js",
     "static/media/aestheticme2.png": "/static/media/aestheticme2.ce3aa9cae1cc0e23a22c.png",
     "static/media/aestheticme.png": "/static/media/aestheticme.cb591433e16c52fe50af.png",
@@ -18,12 +18,12 @@
     "static/media/stemCord.jpg": "/static/media/stemCord.bf187fd3d72ade15f18f.jpg",
     "static/media/ThinkTeach.jpg": "/static/media/ThinkTeach.252d53710b4cd588872d.jpg",
     "index.html": "/index.html",
-    "main.843c173d.css.map": "/static/css/main.843c173d.css.map",
-    "main.2489335e.js.map": "/static/js/main.2489335e.js.map",
+    "main.b4210d58.css.map": "/static/css/main.b4210d58.css.map",
+    "main.65eab692.js.map": "/static/js/main.65eab692.js.map",
     "787.ada0a756.chunk.js.map": "/static/js/787.ada0a756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.843c173d.css",
-    "static/js/main.2489335e.js"
+    "static/css/main.b4210d58.css",
+    "static/js/main.65eab692.js"
   ]
 }
