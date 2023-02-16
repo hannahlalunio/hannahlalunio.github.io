@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.843c173d.css",
-    "main.js": "/static/js/main.4adf5f88.js",
+    "main.js": "/static/js/main.2489335e.js",
     "static/js/787.ada0a756.chunk.js": "/static/js/787.ada0a756.chunk.js",
     "static/media/aestheticme2.png": "/static/media/aestheticme2.ce3aa9cae1cc0e23a22c.png",
     "static/media/aestheticme.png": "/static/media/aestheticme.cb591433e16c52fe50af.png",
+    "static/media/HannahLalunio_resume.pdf": "/static/media/HannahLalunio_resume.497459048539e3f307e0.pdf",
     "static/media/Raleway-Medium.ttf": "/static/media/Raleway-Medium.601cda68c7b7bbcc9a12.ttf",
     "static/media/Raleway-Bold.ttf": "/static/media/Raleway-Bold.18960343b3da49bfd353.ttf",
     "static/media/Eina01-Regular.ttf": "/static/media/Eina01-Regular.2f3ebc72a376a3305bfc.ttf",
@@ -14,13 +15,15 @@
     "static/media/goldwind.jpg": "/static/media/goldwind.d94b5d002678de8bd82e.jpg",
     "static/media/cbmarine.jpg": "/static/media/cbmarine.7a6acc17eb29b41de5ca.jpg",
     "static/media/church.jpg": "/static/media/church.bedf7a846202f0008486.jpg",
+    "static/media/stemCord.jpg": "/static/media/stemCord.bf187fd3d72ade15f18f.jpg",
+    "static/media/ThinkTeach.jpg": "/static/media/ThinkTeach.252d53710b4cd588872d.jpg",
     "index.html": "/index.html",
     "main.843c173d.css.map": "/static/css/main.843c173d.css.map",
-    "main.4adf5f88.js.map": "/static/js/main.4adf5f88.js.map",
+    "main.2489335e.js.map": "/static/js/main.2489335e.js.map",
     "787.ada0a756.chunk.js.map": "/static/js/787.ada0a756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.843c173d.css",
-    "static/js/main.4adf5f88.js"
+    "static/js/main.2489335e.js"
   ]
 }
