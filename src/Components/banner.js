@@ -6,7 +6,7 @@ import ButtonComp from "./button";
 
 // images
 import BannerImg from "./../../src/assets/images/bannerimg.png";
-import resume from "./../assets/LalunioHannahMae.pdf";
+import resume from "./../assets/LalunioHannahMaeResume.pdf";
 
 
 
