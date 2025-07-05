@@ -5,34 +5,38 @@ import Header from "./header";
 import ButtonComp from "./button";
 
 // images
-import BannerImg from "./../../src/assets/images/aestheticme2.png";
-import resume from "./../assets/resume_2024.pdf"
+import BannerImg from "./../../src/assets/images/bannerimg.png";
+import resume from "./../assets/LalunioHannahMae.pdf";
 
 
 
-function Banner(){
-    return(
-        // <div class="banner-main">
-            <div className="banner-content">
+function Banner() {
+    return (
+        <div class="banner-main">
             <Header />
+            <div className="banner-content">
+
                 <Container className="banner-container">
                     <Row>
                         <Col lg="6" md="6" sm="12" className="d-flex align-items-center">
                             <div className="banner-texts">
-                                <h1>I'm <b>Hannah Mae</b></h1>
-                                <h2>Front end developer and designer</h2>
-                                <a href={resume} target="_blank"><ButtonComp buttonText="Hire Me"/></a>
+                                <h1><span className="text-color1">I'm</span><span className="text-color2"> Hannah Mae</span></h1>
+                                <p>Front end developer and designer</p>
+                                <a href={resume} target="_blank"><ButtonComp buttonText="Work with Me" /></a>
                             </div>
                         </Col>
                         <Col lg="6" md="6" sm="12">
                             <div className="banner-img">
-                                <img src={BannerImg} alt="Banner image"/>
+                                <div className="banner-img-container">
+                                    <img src={BannerImg} alt="vector image" />
+                                </div>
+
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </div>
-        // </div>
+        </div>
 
     );
 }

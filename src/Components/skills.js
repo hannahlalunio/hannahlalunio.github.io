@@ -12,57 +12,51 @@ import Reacticon from "./../../src/assets/images/react.png";
 
 
 
-function Skills(){
-    return(
-        <section className="section-padding">
+function Skills() {
+    return (
+        <section className="section-padding" id="skills">
             <Container>
                 <h2 className="text-center section-title">What I can do</h2>
                 <Row className="justify-content-center mt-5">
                     <Col lg="4" md="4" sm="12">
                         <div className="skill-box d-flex justify-content-center">
-                            <img src={HTMLicon} alt="HTMLicon"/>
+                            <img src={HTMLicon} alt="HTMLicon" />
                             <h5>HTML</h5>
                         </div>
                     </Col>
                     <Col lg="4" md="4" sm="12">
                         <div className="skill-box d-flex justify-content-center">
-                            <img src={CSSicon} alt="CSSicon"/>
+                            <img src={CSSicon} alt="CSSicon" />
                             <h5>CSS</h5>
                         </div>
                     </Col>
                     <Col lg="4" md="4" sm="12">
                         <div className="skill-box d-flex justify-content-center">
-                            <img src={JSicon} alt="JSicon"/>
+                            <img src={JSicon} alt="JSicon" />
                             <h5>Javascript</h5>
                         </div>
                     </Col>
                     <Col lg="4" md="4" sm="12">
                         <div className="skill-box d-flex justify-content-center">
-                            <img src={WPicon} alt="WPicon"/>
+                            <img src={WPicon} alt="WPicon" />
                             <h5>Wordpress</h5>
                         </div>
                     </Col>
                     <Col lg="4" md="4" sm="12">
                         <div className="skill-box d-flex justify-content-center">
-                            <img src={PHPicon} alt="PHPicon"/>
+                            <img src={PHPicon} alt="PHPicon" />
                             <h5>PHP</h5>
                         </div>
                     </Col>
                     <Col lg="4" md="4" sm="12">
                         <div className="skill-box d-flex justify-content-center">
-                            <img src={Elementoricon} alt="Elementoricon"/>
+                            <img src={Elementoricon} alt="Elementoricon" />
                             <h5>Eelementor</h5>
-                        </div>
-                    </Col>
-                    <Col lg="4" md="4" sm="12">
-                        <div className="skill-box d-flex justify-content-center">
-                            <img src={Reacticon} alt="Reacticon"/>
-                            <h5>React Js</h5>
                         </div>
                     </Col>
                 </Row>
             </Container>
-            
+
         </section>
     );
 }
